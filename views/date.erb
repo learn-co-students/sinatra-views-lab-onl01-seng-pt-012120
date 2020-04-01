@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Date</title>
+  </head>
+  
+  <body>
+   
+    <h1>Today</h1>
+    
+    <% time = Time.new %>
+    <% values = time.to_a %>
+    
+    <p><%= "The date is " + "#{Date.today.strftime("%A, %B %d, %Y")}" %></p>
+    
+  </body>
+</html>
